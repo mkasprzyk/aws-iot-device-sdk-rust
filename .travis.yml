@@ -1,0 +1,6 @@
+services:
+  - docker
+
+before_install:
+  - cd ./ci 
+  - make build PACKAGE=../ CARGO_OPTS=-v 
