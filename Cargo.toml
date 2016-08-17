@@ -4,3 +4,4 @@ version = "0.1.0"
 authors = ["Maciek Kasprzyk <mkasprzyk@szy.fr>"]
 
 [dependencies]
+rust-mq = { git = "https://github.com/inre/rust-mq.git" }
